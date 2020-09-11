@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://files.minecraftforge.net/maven'
+        }
+        gradlePluginPortal()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'net.minecraftforge.gradle') {
+                useModule("net.minecraftforge.gradle:ForgeGradle:${requested.version}")
+            }
+        }
+    }
+}
+
