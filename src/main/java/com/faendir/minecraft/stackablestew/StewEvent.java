@@ -1,4 +1,4 @@
-package com.faendir.minecraft.villagernames;
+package com.faendir.minecraft.stackablestew;
 
 
 import net.minecraft.entity.LivingEntity;

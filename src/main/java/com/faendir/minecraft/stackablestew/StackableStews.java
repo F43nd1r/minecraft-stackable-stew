@@ -1,4 +1,4 @@
-package com.faendir.minecraft.villagernames;
+package com.faendir.minecraft.stackablestew;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
